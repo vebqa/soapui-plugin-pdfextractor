@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:soapui-factories xmlns:tns="http://eviware.com/soapui/config">
+	<tns:factory id="PDFExtractorTestStep"
+		factoryType="com.eviware.soapui.impl.wsdl.teststeps.registry.WsdlTestStepFactory"
+		factoryClass="com.vebqa.readyapi.plugin.pdfextractor.PDFExtractorTestStepFactory" />
+
+	<tns:factory id="PDFExtractorTestStepPanelBuilder"
+		factoryType="com.eviware.soapui.model.util.PanelBuilderFactory"
+		factoryClass="com.vebqa.readyapi.plugin.pdfextractor.PDFExtractorTestStepPanelBuilderFactory" />
+</tns:soapui-factories>
